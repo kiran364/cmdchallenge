@@ -1,0 +1,152 @@
+1. git status
+show modified files in working directory, staged for your next commit
+
+2. git add [file]
+add a file as it looks now to your next commit (stage)
+
+3. git reset [file]
+unstage a file while retaining the changes in working directory
+
+4. git diff
+diff of what is changed but not staged
+
+5. git branch
+list your branches.
+
+6. git init
+initialize an existing directory as a Git repository
+
+7. git clone [url]
+retrieve an entire repository from a hosted location via URL
+
+8. git branch [branch-name]
+create a new branch at the current commit
+
+9. git checkout
+switch to another branch and check it out into your working directory
+
+10. git merge [branch]
+merge the specified branch’s history into the current one
+
+11. git log
+show all commits in the current branch’s history
+
+12. git log branchB..branchA
+show the commits on branchA that are not on branchB
+
+13. git log --follow [file]
+show the commits that changed file, even across renames
+
+14. git diff branchB...branchA
+show the diff of what is in branchA that is not in branchB
+
+15. git remote add [alias] [url]
+add a git URL as an alias
+
+16. git fetch [alias]
+fetch down all the branches from that Git remote
+
+17. git merge [alias]/[branch]
+merge a remote branch into your current branch to bring it up to date
+
+18. git push [alias] [branch]
+Transmit local branch commits to the remote repository branch
+
+19. git pull
+fetch and merge any commits from the tracking remote branch
+
+20. git rm [file]
+delete the file from project and stage the removal for commit
+
+21. git mv [existing-path] [new-path]
+change an existing file path and stage the move
+
+22. git log --stat -M
+show all commit logs with indication of any paths that moved
+
+23. git rebase [branch]
+apply any commits of current branch ahead of specified one
+
+24. git reset --hard [commit]
+clear staging area, rewrite working tree from specified commit
+
+25. git commit –m “Message to go with the commit here”
+git commit will create a snapshot of the changes and save it to the git directory.
+
+26. git status
+git status displays the list of changed files together with the files that are yet to be staged or committed.
+
+27. git remote –v
+git remote lets you view all remote repositories. The following command will list all connections along with their URLs:
+
+28. git show
+git show is a command  used to view information about any git object.
+
+29. git fetch origin
+git fetch allows users to fetch all objects from the remote repository that don’t currently reside in the local working directory.
+
+30. git gc
+git gc will clean unnecessary files and optimize the local repository.
+
+31. gitk
+gitk shows the graphical interface for a local repository. Simply run:
+
+32. git prune
+git prune deletes objects that don’t have any incoming pointers.
+
+33. git fsck
+git fsck performs an integrity check of the git file system and identifies any corrupted objects.
+
+34. git rebase master
+git rebase is used to apply certain changes from one branch to another. For instance:
+
+35. git tag <insert-commitID-here>
+git tag marks specific commits.  Developers usually use it to mark release points like v1.0 and v2.0.
+
+36. git log -p [file/directory]
+Show change history for file/directory
+including diffs
+
+37.  git log
+Show full change history
+
+38. git show [commit]:[file]
+Show the file changes for a commit id and/or file
+
+39. git blame [file]
+List the change dates and authors for a file
+
+40. git diff commit1 commit2
+Show the changes between two commit ids
+
+41. git diff HEAD
+Show all staged and unstaged file changes
+
+42.  git diff --cached
+Show the changes to staged files
+
+43. git dif
+Show the changes to files not yet staged
+
+44. git tag my_tag
+Tag the current commit
+
+45. git checkout branch_b
+    git merge branch_a
+Merge branch_a into branch_b
+
+46. git branch -d my_branch
+Delete the branch called my_branch
+
+47. git branch new_branch
+Create a new branch called new_branch
+
+48. git checkout my_branch
+Switch to a branch, my_branch, and update
+working directory
+
+49. git branch -av
+List all branches, local and remote
+
+50. git reset --hard
+Revert everything to the last commit
